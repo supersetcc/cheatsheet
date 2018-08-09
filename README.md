@@ -1,2 +1,1 @@
 # cheatsheet
-Cheatsheet for DevOps
