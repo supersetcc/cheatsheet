@@ -1,4 +1,4 @@
-# cheatsheet
+# DevOps Workspace
 
 ## Log rotate - rotates, compresses, and mails system logs
 - `sudo vim /etc/logrotate.d/nginx`에서 nginx log를 logroate로 관리
@@ -10,3 +10,13 @@
 
 ## linux
 - `uname -a`: 리눅스 버전 확인
+
+## Nginx
+- The `sites-available` folder is for storing all of your vhost configurations, whether or not they're currently enabled.
+- The `sites-enabled` folder contains symlinks to files in the sites-available folder. This allows you to selectively disable vhosts by removing the symlink.
+- `/etc/nginx/nginx.conf`
+- `nginx -s [stop | quit | reload | reopen]`
+    - stop — fast shutdown
+    - quit — graceful shutdown
+    - reload — reloading the configuration file
+    - reopen — reopening the log files
