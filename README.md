@@ -1,5 +1,3 @@
-# DevOps Workspace
-
 ## Log rotate - rotates, compresses, and mails system logs
 - `sudo vim /etc/logrotate.d/nginx`에서 nginx log를 logroate로 관리
 - `logrotate -d -f /etc/logrotate.d/nginx`로 테스트 가능 (`-d`는 dryrun, `-f`는 size나 daily 같은 조건 관계 없이 force logrotate)
