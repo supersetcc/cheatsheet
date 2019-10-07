@@ -10,6 +10,7 @@
 
 ## linux
 - `uname -a`: 리눅스 버전 확인
+- `find . -name "*.pdf" -delete`: `rm -rf abr*` 했는데 'Argument list too long' 에러날 때
 
 ## Nginx
 - The `sites-available` folder is for storing all of your vhost configurations, whether or not they're currently enabled.
